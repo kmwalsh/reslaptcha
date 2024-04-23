@@ -1410,15 +1410,21 @@ ol li {
 }
 
 .slapper {
-  font-size: 100rem;
+  font-size: 50rem;
   display: none;
-  position: absolute;
+  position: fixed;
   z-index: 9999;
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   &.active {
     display: block;
+  }
+}
+
+@media( min-width: 768px ) {
+  .slapper {
+    font-size: 100rem;
   }
 }
 
