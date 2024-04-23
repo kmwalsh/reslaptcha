@@ -1,0 +1,570 @@
+<!doctype html>
+<html>
+	<head>
+		<title>😃🖐 reSLAPtcha: modern slap-based, indignity-driven human verification</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./src/output.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+	</head>
+	<body>
+		<section class="page wrap">
+			<div class="content">
+
+				<div class="bg-white py-24 pb-12 sm:py-32">
+					<div class="mx-auto px-6 lg:px-8">
+						<div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+							<div class="lg:pr-4">
+								<div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+									<img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="images/slap.jpg" alt="">
+									<div class="absolute inset-0 bg-gray-900 mix-blend-multiply"></div>
+									<div class="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl" aria-hidden="true">
+										<div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-rose-500 opacity-40" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+									</div>
+									<figure class="relative isolate">
+										<svg viewBox="0 0 162 128" fill="none" aria-hidden="true" class="absolute -left-2 -top-4 -z-10 h-32 stroke-white/20">
+											<path id="0ef284b8-28c2-426e-9442-8655d393522e" d="M65.5697 118.507L65.8918 118.89C68.9503 116.314 71.367 113.253 73.1386 109.71C74.9162 106.155 75.8027 102.28 75.8027 98.0919C75.8027 94.237 75.16 90.6155 73.8708 87.2314C72.5851 83.8565 70.8137 80.9533 68.553 78.5292C66.4529 76.1079 63.9476 74.2482 61.0407 72.9536C58.2795 71.4949 55.276 70.767 52.0386 70.767C48.9935 70.767 46.4686 71.1668 44.4872 71.9924L44.4799 71.9955L44.4726 71.9988C42.7101 72.7999 41.1035 73.6831 39.6544 74.6492C38.2407 75.5916 36.8279 76.455 35.4159 77.2394L35.4047 77.2457L35.3938 77.2525C34.2318 77.9787 32.6713 78.3634 30.6736 78.3634C29.0405 78.3634 27.5131 77.2868 26.1274 74.8257C24.7483 72.2185 24.0519 69.2166 24.0519 65.8071C24.0519 60.0311 25.3782 54.4081 28.0373 48.9335C30.703 43.4454 34.3114 38.345 38.8667 33.6325C43.5812 28.761 49.0045 24.5159 55.1389 20.8979C60.1667 18.0071 65.4966 15.6179 71.1291 13.7305C73.8626 12.8145 75.8027 10.2968 75.8027 7.38572C75.8027 3.6497 72.6341 0.62247 68.8814 1.1527C61.1635 2.2432 53.7398 4.41426 46.6119 7.66522C37.5369 11.6459 29.5729 17.0612 22.7236 23.9105C16.0322 30.6019 10.618 38.4859 6.47981 47.558L6.47976 47.558L6.47682 47.5647C2.4901 56.6544 0.5 66.6148 0.5 77.4391C0.5 84.2996 1.61702 90.7679 3.85425 96.8404L3.8558 96.8445C6.08991 102.749 9.12394 108.02 12.959 112.654L12.959 112.654L12.9646 112.661C16.8027 117.138 21.2829 120.739 26.4034 123.459L26.4033 123.459L26.4144 123.465C31.5505 126.033 37.0873 127.316 43.0178 127.316C47.5035 127.316 51.6783 126.595 55.5376 125.148L55.5376 125.148L55.5477 125.144C59.5516 123.542 63.0052 121.456 65.9019 118.881L65.5697 118.507Z" />
+											<use href="#0ef284b8-28c2-426e-9442-8655d393522e" x="86" />
+										</svg>
+										<blockquote class="mt-6 text-2xl font-semibold leading-8 text-white">
+											
+											<img
+											src="images/will-smith.jpg"
+											alt="tania andrew"
+											class="relative inline-block h-[58px] w-[58px] mb-2 !rounded-full object-cover object-center"
+										/>											
+											<p>"Yubikeys are for chumps. reSLAPtcha is so much cooler."</p>
+										</blockquote>
+										<figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Will Smith,</strong> satisfied customer</figcaption>
+									</figure>
+								</div>
+							</div>
+				
+							<div>
+								<div class="text-base leading-7 text-gray-700 lg:max-w-3xl">
+									<p class="text-base font-semibold leading-7 text-rose-500">100% guaranteed cryptographically-secure, indignity-driven slap-based human verification system.</p>
+									<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4"><span class="logo">😃🖐</span> reSLAPtcha</h1>
+										<p>Tired of your customers having to prove their humanity by selecting weird pictures out of a grid? Exhausted of contributing to the advancement of machine learning through human labor? Terrified of the robots figuring out how to bypass picture selection, word-based, and puzzle-based captchas?</p>
+										
+										<p>Introducing: reSLAPtcha! Turn your camera on, slap yourself in the face, get verified as a real-live human instantly.</p>
+						
+										<p>A proprietary machine-learning algorithm based on Tensorfwack verifies slaps as originating from a real human. A set of trained monkeys&mdash;er, WordPress developers&mdash;continually test, refine, and advance the cutting-edge security of our platform. A completely secure custom SLAP-0 cryptographic hash function ensures your slap can never be used to prove the humanity of any other living being. Allow/deny lists enable you to <em>palmprint</em> (get it? eh?) repeat visitors to your website or service for even easier verification.</em></p>
+										<div class="mt-10 flex">
+											<a href="#!" class="js-slap-page inline-block text-white font-bold py-2 px-4 rounded-full bg-gradient-to-r from-rose-500 to-purple-800 border border-transparent transform hover:scale-110 hover:border-white transition-transform duration-3000 ease-in-out">
+												Sign Up Today
+											</a>
+										</div>
+								</div>
+								<dl class="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
+									<div>
+										<dt class="text-sm font-semibold leading-6 text-gray-600">Founded</dt>
+										<dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">2024</dd>
+									</div>
+									<div>
+										<dt class="text-sm font-semibold leading-6 text-gray-600">Slap Verifications</dt>
+										<dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">42,098</dd>
+									</div>
+									<div>
+										<dt class="text-sm font-semibold leading-6 text-gray-600">Security Incidents</dt>
+										<dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">0</dd>
+									</div>
+									<div>
+										<dt class="text-sm font-semibold leading-6 text-gray-600">Raised</dt>
+										<dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">$6.5B</dd>
+									</div>
+								</dl>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- component -->
+				<section>
+					<div class="py-16 pt-2">
+							<div class="mx-auto px-6 max-w-6xl text-gray-500">
+									<div class="text-center">
+											<h2 class="text-3xl text-gray-950 font-semibold">Features</h2>
+											<p class="mt-6 text-gray-700">The great features you love from traditional CAPTCHA implementations, plus human pain and shame!</p>
+									</div>
+									<div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+											<div class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200">
+													<div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white blur-2xl opacity-25"></div>
+													<div class="relative">
+															<div class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 before:bg-gradient-to-b before:shadow">
+																	<div style="position: relative; z-index: 99;">🖐</div>
+															</div>
+
+															<div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
+																	<p class="text-gray-700">You'll have access to a dashboard where you can review customer slaps. Measure your slap velocity, sound generation, and level of human shame in real-time.</p>
+															</div>
+													</div>
+											</div>
+											<div class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200">
+													<div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white blur-2xl opacity-25"></div>
+													<div class="relative">
+															<div class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 before:bg-gradient-to-b before:shadow">
+																	<div style="position: relative; z-index: 99;">👏</div>
+															</div>
+
+															<div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
+																	<p class="text-gray-700">The average human takes 10 seconds to solve a traditional CAPTCHA, but only 3 seconds to spank a cheek.<sup>1</sup></p>
+															</div>
+													</div>
+											</div>
+											<div class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200">
+													<div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white blur-2xl opacity-25"></div>
+													<div class="relative">
+															<div class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 before:bg-gradient-to-b before:shadow">
+																	<div style="position: relative; z-index: 99;">🤚</div>
+															</div>
+
+															<div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
+																	<p class="text-gray-700">We're 25% faster and our slaps are 40% more clappy than our leading competitor, WHACKtcha.</p>
+															</div>
+													</div>
+											</div>
+									<div class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200">
+											<div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white blur-2xl opacity-25"></div>
+											<div class="relative">
+													<div class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 before:bg-gradient-to-b before:shadow">
+															<div style="position: relative; z-index: 99;">👐</div>
+													</div>
+
+													<div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
+															<p class="text-gray-700">Slap harder for longer verification. Draw blood, and you'll be verified for a month! Lose a tooth, receive permanent human verification! Robots can't fake blood or teeth. Yet.</p>
+													</div>
+											</div>
+									</div>
+									<div class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200">
+											<div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white blur-2xl opacity-25"></div>
+											<div class="relative">
+													<div class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 before:bg-gradient-to-b before:shadow">
+															<div style="position: relative; z-index: 99;">🙋‍♂️</div>
+													</div>
+
+													<div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
+															<p class="text-gray-700">100% accessible technology: if you can't slap yourself, you can slap someone else, or just slap the ever-loving heck out of your computer.<sup>2</sup></p>
+													</div>
+											</div>
+									</div>
+									<div class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200">
+											<div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white blur-2xl opacity-25"></div>
+											<div class="relative">
+													<div class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 before:bg-gradient-to-b before:shadow">
+															<div style="position: relative; z-index: 99;">💩</div>
+													</div>
+
+													<div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
+															<p class="text-gray-700">Quick slap-in install, MVS(lap)-based code architecture&mdash;all running on the buffoonAPI microservices you've come to love, with a completely secure serverless SHART-based authentication system.</p>
+													</div>
+											</div>
+									</div>
+									<div class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200">
+											<div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white blur-2xl opacity-25"></div>
+											<div class="relative">
+													<div class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 before:bg-gradient-to-b before:shadow">
+															<div style="position: relative; z-index: 99;">🤖</div>
+													</div>
+
+													<div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
+															<p class="text-gray-700"><strong class="text-rose-500">PRO upgrade feature:</strong> Privacy protection focused cameraless integration with a slap-robot programmed by none other than Simone Giertz.<sup>3</sup></p>
+													</div>
+											</div>
+									</div>
+									<div class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200">
+											<div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white blur-2xl opacity-25"></div>
+											<div class="relative">
+													<div class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 before:bg-gradient-to-b before:shadow">
+															<div style="position: relative; z-index: 99;">🌿</div>
+													</div>
+
+													<div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
+															<p class="text-gray-700"><strong class="text-rose-500">PRO upgrade feature:</strong> Aloe vera and baby binkie mailable kits to help soothe the wounded skin and wounded pride of your customers.</p>
+													</div>
+											</div>
+									</div>
+									<div class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200">
+											<div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white blur-2xl opacity-25"></div>
+											<div class="relative">
+													<div class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 before:bg-gradient-to-b before:shadow">
+															<div style="position: relative; z-index: 99;">📈</div>
+													</div>
+
+													<div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
+															<p class="text-gray-700"><strong class="text-rose-500">PRO upgrade feature:</strong> Top-tier slap velocity detection to segment your users by just how willing they are to beat the tar out of their own faces to access your service.</p>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="pt-8 pb-16">
+							<div class="mx-auto px-6 max-w-6xl text-gray-500">
+									<div class="text-center">
+											<h2 class="text-3xl text-gray-950 font-semibold">Testimonials</h2>
+											<p class="mt-6 text-gray-700">Real slaps, from real people.</p>
+									</div>
+							</div>
+						</div>
+						<div class="mt-2 grid sm:grid-cols-2 lg:grid-cols-3 gap-20">
+						
+						<div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+							<div class="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
+								<img
+									src="images/rhavi.jpg"
+									alt="tania andrew"
+									class="relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center"
+								/>
+								<div class="flex w-full flex-col gap-0.5">
+									<div class="flex items-center justify-between">
+										<h5 class="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+											Ravi Bhatia
+										</h5>
+										<div class="5 flex items-center gap-0">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mb-6 p-0">
+								<p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+									"How <em>CAN'T</em> she slap?"
+								</p>
+							</div>
+						</div>
+						
+						<div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+							<div class="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
+								<img
+									src="images/captain-sparrow.jpg"
+									alt="tania andrew"
+									class="relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center"
+								/>
+								<div class="flex w-full flex-col gap-0.5">
+									<div class="flex items-center justify-between">
+										<h5 class="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+											Captain Jack Sparrow
+										</h5>
+										<div class="5 flex items-center gap-0">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mb-6 p-0">
+								<p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+									"It's second nature to me after being slapped so many times by ladies of the night. I definitely deserved reSLAPtcha."
+								</p>
+							</div>
+						</div>
+						
+						<div class="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
+							<div class="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
+								<img
+									src="images/charlie-murphy.jpg"
+									alt="tania andrew"
+									class="relative inline-block h-[58px] w-[58px] !rounded-full object-cover object-center"
+								/>
+								<div class="flex w-full flex-col gap-0.5">
+									<div class="flex items-center justify-between">
+										<h5 class="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+											Charlie Murphy
+										</h5>
+										<div class="5 flex items-center gap-0">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 24 24"
+												fill="currentColor"
+												aria-hidden="true"
+												class="h-5 w-5 text-yellow-700"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+													clip-rule="evenodd"
+												></path>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mb-6 p-0">
+								<p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+									"So good, I want to use all ten fingers."
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+				<div class="mt-20 max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-2 gap-20">
+						<div>
+							<!-- Modal video component -->
+							<div class="[&_[x-cloak]]:hidden" x-data="{ modalOpen: false }">
+					
+								<!-- Video thumbnail -->
+								<button class="relative flex justify-center items-center focus:outline-none focus-visible:ring focus-visible:ring-indigo-300 rounded-3xl group" @click="modalOpen = true" aria-controls="modal" aria-label="Watch the video">
+										<img class="rounded-3xl shadow-2xl transition-shadow duration-300 ease-in-out" src="https://cruip-tutorials.vercel.app/modal-video/modal-video-thumb.jpg" width="768" height="432" alt="Modal video thumbnail" />
+										<!-- Play icon -->
+										<svg class="absolute pointer-events-none group-hover:scale-110 transition-transform duration-300 ease-in-out" xmlns="http://www.w3.org/2000/svg" width="72" height="72">
+												<circle class="fill-white" cx="36" cy="36" r="36" fill-opacity=".8" />
+												<path class="fill-rose-500 drop-shadow-2xl" d="M44 36a.999.999 0 0 0-.427-.82l-10-7A1 1 0 0 0 32 29V43a.999.999 0 0 0 1.573.82l10-7A.995.995 0 0 0 44 36V36c0 .001 0 .001 0 0Z" />
+										</svg>
+								</button>
+								<!-- End: Video thumbnail -->
+						
+								<!-- Modal backdrop -->
+								<div
+										class="fixed inset-0 z-[99999] bg-black bg-opacity-50 transition-opacity"
+										x-show="modalOpen"
+										x-transition:enter="transition ease-out duration-200"
+										x-transition:enter-start="opacity-0"
+										x-transition:enter-end="opacity-100"
+										x-transition:leave="transition ease-out duration-100"
+										x-transition:leave-start="opacity-100"
+										x-transition:leave-end="opacity-0" 
+										aria-hidden="true"
+										x-cloak
+								></div>
+								<!-- End: Modal backdrop -->
+						
+								<!-- Modal dialog -->
+								<div
+										id="modal"
+										class="fixed inset-0 z-[99999] flex px-4 md:px-6 py-6"
+										role="dialog"
+										aria-modal="true"
+										x-show="modalOpen"
+										x-transition:enter="transition ease-out duration-300"
+										x-transition:enter-start="opacity-0 scale-75"
+										x-transition:enter-end="opacity-100 scale-100"
+										x-transition:leave="transition ease-out duration-200"
+										x-transition:leave-start="opacity-100 scale-100"
+										x-transition:leave-end="opacity-0 scale-75"
+										x-cloak
+								>
+										<div class="max-w-5xl mx-auto h-full flex items-center">
+												<div class="w-full max-h-full rounded-3xl shadow-2xl aspect-video bg-black overflow-hidden" @click.outside="modalOpen = false" @keydown.escape.window="modalOpen = false">
+													<iframe width="1200" height="675" src="https://www.youtube.com/embed/ZbnCZT5R8Ss?si=MB8blbbXQWRiliVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+												</div>
+										</div>
+								</div>
+								<!-- End: Modal dialog -->
+						
+						</div>
+						<!-- End: Modal video component -->
+					</div>
+					<div class="px-6 max-w-6xl text-gray-500">
+								<h2 class="text-3xl text-gray-950 font-semibold">See reSLAPtcha in action</h2>
+								<p class="mt-6 text-gray-700 text-2xl">Real slaps, from real people. reSLAPtcha will satisfy customers fast and get you back to what really matters: pixel-pushing and status alignment meetings with an endless carousel of stakeholders.</p>
+					</div>
+				</div>
+
+				<section class="legal text-gray-500 pt-10">
+					<h2>Disclaimers, Legal Liability, and Privacy</h2>
+					<ol>
+						<li>Nope, <em>that</em> kind of cheek-spanking is not an acceptable alternative to a slap, and may result in immediate termination of your account.</li>
+						<li>Facepalms are not an acceptable alternative to slaps. Use of facepalming may result in immediate termination of your account.</li>
+						<li>This product has not been officially endorsed by Simone Giertz.</li>
+						<li>reSLAPtcha is not responsible for any slaps resulting in permanent ego damage or complete humiliation.</li>
+						<li>Pre-recorded slaps are not acceptable per terms of use. All slaps must be executed in real-time.</li>
+					</ol>
+				</section>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<section class="wrap">
+				&copy; 2024 Slapstick Industries. All rights reserved. Image from <a href="https://unsplash.com/photos/a-man-and-a-woman-standing-next-to-each-other-peMlacqAZjo">Unsplash.</a> Slaps via <a href="https://www.fesliyanstudios.com">fesliyanstudios</a>. Components via Tailwind Components. Idiot giganerd slapstick humor by certified moron and trained monkey KMW.
+			</section>
+		</footer>
+
+		<div class="slapper js-slapper">🖐</div>
+		
+		<script src="./src/script.js" type="text/javascript"></script>
+	</body>
+</html>

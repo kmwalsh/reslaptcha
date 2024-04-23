@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply h-screen
+}
+
+.wrap {
+	@apply container mx-auto
+}
+
+.header {
+	@apply text-white bg-rose-500 py-10
+}
+
+.page {
+	@apply flex flex-col content-start justify-between grow my-10
+}
+
+.footer {
+	@apply text-white bg-rose-500 py-10
+}
+
+h1 {
+	@apply text-3xl
+}
+
+h2 {
+	@apply text-2xl mt-10 mb-3
+}
+
+p {
+	@apply mb-2
+}
+
+.sign-up {
+	@apply text-lg inline-flex text-white bg-rose-500 py-4 px-4 mt-4 rounded-lg font-semibold
+}
+
+ul,
+ol {
+	@apply ml-10 
+}
+	
+ul li {
+	@apply list-disc;
+}
+
+ol li {
+	@apply list-decimal;
+}
+
+.legal {
+	h2 {
+		@apply text-sm
+	}
+
+	li {
+		@apply text-xs
+	}
+}
+
+.slapper {
+	font-size: 100rem;
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+
+	&.active {
+		display: block;
+	}
+}
